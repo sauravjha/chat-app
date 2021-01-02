@@ -5,3 +5,8 @@ Chat app using NodeJs
 ``
  npm run start 
 ``
+
+## Command to run in nodemode mode
+``
+    npm run dev
+``
