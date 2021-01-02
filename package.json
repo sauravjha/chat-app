@@ -1,0 +1,28 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "chat app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "env-cmd -f ./config/test.env jest --watch --runInBand",
+    "dev": "nodemon src/index.js -e js,mjs,json,hbs,css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sauravjha/chat-app.git"
+  },
+  "author": "Saurav Jha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sauravjha/chat-app/issues"
+  },
+  "homepage": "https://github.com/sauravjha/chat-app#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^3.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
