@@ -10,3 +10,6 @@ Chat app using NodeJs
 ``
     npm run dev
 ``
+Reference:
+http://links.mead.io/chatlibs
+https://links.mead.io/chatassets
